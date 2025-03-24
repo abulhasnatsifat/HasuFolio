@@ -51,7 +51,7 @@ const Portfolio = () => {
               <p>{pro.description}</p>
               <p>{pro.technologies}</p>
             </div>
-            <br/>
+            <br/>  <br/>  <br/>
             <div className="portfolio__item-cta">
               <a
                 href={pro.github}
