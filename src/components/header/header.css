@@ -1,0 +1,85 @@
+header {
+  height: 100%;
+  padding-top: 10rem;
+  overflow: hidden;
+  
+}
+
+.header__container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+.header__greeting {
+  font-size: 1.5rem;
+  color: var(--color-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.header__name {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin: 0.5rem 0;
+  text-align: center; /* This will center the h2 text */
+}
+
+.header__role {
+  font-size: 1.2rem;
+  color: var(--color-light);
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: 2.5rem;
+}
+
+.header__socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 5rem;
+  bottom: 1rem;
+}
+
+.header__socials::after {
+  content: '';
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+
+.scroll__down {
+  position: absolute;
+  right: 5rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: 68vh;
+  }
+
+  section {
+    margin-top: 6rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
+}

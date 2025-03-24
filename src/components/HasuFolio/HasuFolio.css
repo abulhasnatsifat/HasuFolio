@@ -1,0 +1,77 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Layout Styles */
+  header, footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .main-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Topbar Styles */
+  .topbar {
+    background-color: #444;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Intro Section */
+  .intro {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Portfolio Section */
+  .portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Contact Section */
+  .contact {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .topbar {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
