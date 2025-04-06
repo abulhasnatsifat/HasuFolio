@@ -11,7 +11,7 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: "Ecommerce Website",
+      title: "Tren._.Desh",
       img: IMG1,
       logo: logo1,
       description:
