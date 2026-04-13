@@ -5,7 +5,6 @@ import React from "react";
 import { VscFolderLibrary } from "react-icons/vsc";
 import img from '../../assets/Me.png'
 
-// import ME from '../../assets/Rasif Tagizade image.jpg';
 
 
 const Intro = () => {
@@ -33,14 +32,7 @@ const Intro = () => {
             </article>
           </div>
           <p>
-            1+ years experienced Full Stack Developer with hands-on experience in
-            identifying web-based user interactions along with designing and
-            implementing highly-responsive user interface components by
-            deploying React concepts. Proficient in translating designs and
-            wireframes into high-quality code, and writing application interface
-            code via JavaScript and React JS workflows. Adept at monitoring and
-            maintaining frontend performance and troubleshooting and debugging
-            the same to bolster overall performance.
+            I am a dedicated and detail-oriented Computer Operator at Nafi IT, responsible for ensuring smooth daily IT operations, system monitoring, data management, and technical support. With strong expertise in hardware & software troubleshooting, MS Office, data entry, and network assistance, I deliver efficient and accurate solutions that help the team stay productive. Passionate about technology and committed to excellence, I thrive in fast-paced environments, optimizing workflows while maintaining high standards of accuracy and confidentiality, and am eager to grow with Nafi IT.
           </p>
         </div>
       </div>
