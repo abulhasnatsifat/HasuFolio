@@ -31,8 +31,7 @@ function App() {
   return (
     <div className="portfolio-container">
       <div className="left-side">
-        <h1><FaUser />  Hi I'm Abul Hasnat (Sifat)</h1>
-        <h2><FaCode /> A Dedicated Computer Expert</h2>
+        <h1><FaUser /> Hi I'm Abul Hasnat </h1>
         <p><FaTools /> I handle accurate data entry, update records, and ensure smooth daily computer operations. </p>
         <div className="cta-buttons">
           <button onClick={() => navigate('/loading')}><FaBriefcase />  About Me</button>
@@ -41,7 +40,7 @@ function App() {
       <div className="right-side">
         <img 
           src={gifs[currentgifIndex]} 
-          alt="Hasnat Sifat"
+          alt="Abul Hasnat"
           style={{ transition: 'opacity 1s ease-in-out' }}
           className={currentgifIndex === 0 ? 'fade-in' : 'fade-out'}
         />
