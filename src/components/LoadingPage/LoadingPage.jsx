@@ -26,7 +26,7 @@ function LoadingPage() {
         return prev + 1;
       });
       setLoadingText(() => {
-        if (progress >= 90) return 'Welcome To HasuFolio';
+        if (progress >= 90) return 'Welcome';
         if (progress >= 70) return 'Optimizing performance...';
         if (progress >= 50) return 'Finishing up...';
         if (progress >= 30) return 'Loading resources...';
