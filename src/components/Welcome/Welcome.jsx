@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="portfolio-container">
       <div className="left-side">
-        <h1><FaUser /> Hi I'm Abul Hasnat </h1>
+        <h1><FaUser /> Hi, I'm Abul Hasnat </h1>
 
         <div className="cta-buttons">
           <button onClick={() => navigate('/loading')}><FaBriefcase />  About Me</button>
