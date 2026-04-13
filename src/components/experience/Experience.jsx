@@ -9,39 +9,39 @@ const Experience = () => {
       <h2>Skills</h2>
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Full Stack Development</h3>
+          <h3>Full Details Of My Achievements</h3>
           <div className="experience__content">
           <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>HTML / CSS</h4>
+              <h4>Basic Web Development</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>JavaScript</h4>
+              <h4>Data Entry</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>PHP / CSS</h4>
+              <h4>Microsoft Office</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Bootstrap, Tailwind</h4>
+              <h4>Excel Sheets</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>React , Vite JS, Next Js</h4>
+              <h4>Microsoft Word</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>NPM</h4>
+              <h4>PowerPoint Presentation</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>PhpMyAdmin</h4>
+              <h4>Ai Image / Video </h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Node.js, Next.js</h4>
+              <h4>Ai Deep Analysis</h4>
             </article>
            
          
