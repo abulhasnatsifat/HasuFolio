@@ -31,11 +31,11 @@ function App() {
   return (
     <div className="portfolio-container">
       <div className="left-side">
-        <h1><FaUser />  Hi I'm Hasnat Sifat</h1>
-        <h2><FaCode /> The App & Web Developer</h2>
-        <p><FaTools /> I build modern, scalable, and user-friendly websites & applications.</p>
+        <h1><FaUser />  Hi I'm Abul Hasnat (Sifat)</h1>
+        <h2><FaCode /> A Dedicated Computer Expert</h2>
+        <p><FaTools /> I handle accurate data entry, update records, and ensure smooth daily computer operations. </p>
         <div className="cta-buttons">
-          <button onClick={() => navigate('/loading')}><FaBriefcase />  View HasuFolio</button>
+          <button onClick={() => navigate('/loading')}><FaBriefcase />  About Me</button>
         </div>
       </div>
       <div className="right-side">
